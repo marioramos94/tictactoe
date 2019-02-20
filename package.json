@@ -1,0 +1,13 @@
+{
+  "name": "tictactoe-test",
+  "version": "1.0.0",
+  "description": "technical test ",
+  "main": "index.js",
+  "repository": "https://github.com/marioramos94/tictactoe.git",
+  "author": "Mario <mariosergio.rs94@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongose": "^0.0.2-security"
+  }
+}

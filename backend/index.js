@@ -17,6 +17,8 @@ app.get('/', (req, res) => {
 });
 
 require('./app/routes/game.routes.js')(app);
+require('./database.js')()
+
 
 // listen for requests
 app.listen(3000, () => {

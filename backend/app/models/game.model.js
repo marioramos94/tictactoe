@@ -1,5 +1,7 @@
 
 
+const mongoose = require('mongoose');
+
 module.exports= class Game {
     constructor (){
       
@@ -15,3 +17,17 @@ module.exports= class Game {
 
         
 }
+
+/*
+
+const mongoose = require('mongoose');
+
+const NoteSchema = mongoose.Schema({
+    title: String,
+    content: String
+}, {
+    timestamps: true
+});
+
+module.exports = mongoose.model('Note', NoteSchema);
+*/
